@@ -1,2 +1,9 @@
 server:
   port: 8080
+spring:
+  h2:
+    console:
+      enabled: true
+      path: /db-console
+  datasource:
+    embedded-database-connection: h2
